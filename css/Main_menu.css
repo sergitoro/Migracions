@@ -6,9 +6,6 @@
 body{
   font-family: 'Ubuntu', sans-serif;
   background-color: #EFEFEF;
-  background-image: url('../img/nar.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
   color:white;
   font-size: 22px;;
 }
