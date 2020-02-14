@@ -1,0 +1,23 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #EFEFEF;
+  background-image: url('../img/nar.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  font-size: 22px;;
+}
+
+#container{
+  display:grid;
+  border: 2px solid black;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-rows: calc(15vh - 10px)calc(15vh - 10px)calc(40vh - 10px)calc(15vh - 10px)calc(15vh - 10px);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
