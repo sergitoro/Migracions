@@ -13,8 +13,16 @@ body{
 #container{
   display:grid;
   border: 2px solid black;
-  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-columns: 3fr 1fr 1fr 1fr 1fr  ;
   grid-template-rows: calc(15vh - 10px)calc(15vh - 10px)calc(40vh - 10px)calc(15vh - 10px)calc(15vh - 10px);
   grid-column-gap: 15px;
   grid-row-gap: 15px;
+}
+#container .escales.html{
+  padding: 10px;
+  background-color:#000000
+  ;
+  border-radius: 10px;
+  grid-column:2/3
+  grid-row: 3/4
 }
