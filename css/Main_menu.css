@@ -26,6 +26,14 @@ grid-column: 2/2;
 
   }
 
-  #container .Viatge{
+#container .Viatge{
 
-  }
+}
+
+#container .escales{
+  padding: 10px;
+  background-color:#000000;
+  border-radius: 10px;
+  grid-column:2/3;
+  grid-row: 3/4;
+}
