@@ -13,8 +13,19 @@ body{
 #container{
   display:grid;
   border: 2px solid black;
-  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
   grid-template-rows: calc(15vh - 10px)calc(15vh - 10px)calc(40vh - 10px)calc(15vh - 10px)calc(15vh - 10px);
   grid-column-gap: 15px;
   grid-row-gap: 15px;
 }
+#container .Sis_Veus{
+padding: 9px;
+border-radius: 5px;
+grid-row: 3/4;
+grid-column: 2/2;
+
+  }
+
+  #container .Viatge{
+
+  }
