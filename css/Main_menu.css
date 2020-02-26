@@ -30,10 +30,52 @@ grid-column: 2/2;
 
 }
 
-#container .escales{
+#container .escalesimg1{
   padding: 10px;
   background-color:#000000;
   border-radius: 10px;
-  grid-column:2/3;
+  width: 340px;
+  height: 450px;
+  grid-column: 3/4 ;
   grid-row: 3/4;
+}
+#container .img2{
+  padding: 10px;
+  background-color:#000000;
+  border-radius: 10px;
+  height: 445px;
+  width: 340px;
+  grid-column:1/2;
+  grid-row: 3/4;
+}
+#container .cabezera{
+  padding: 10px;
+  background-color:#ffffff;
+  border-radius: 10px;
+  height: 200px;
+  width: 250px;
+  grid-column:2/3;
+  grid-row: 1/2;
+}
+
+  #container .texto{
+    padding: 10px;
+    background-color:#000000;
+    border-radius: 10px;
+    height: 530px;
+    width: 340px;
+    font-family: courier;
+  font-size: 19px;
+  line-height: 1.5;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+   #container .flecha{
+  padding: 10px;
+  background-color:#000000;
+  border-radius: 10px;
+  width: 340px;
+  height: 450px;
+  grid-column: 1/2 ;
+  grid-row: 2/3;
 }
