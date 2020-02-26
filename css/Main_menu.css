@@ -6,9 +6,6 @@
 body{
   font-family: 'Ubuntu', sans-serif;
   background-color: #EFEFEF;
-  background-image: url('../img/nar.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
   color:white;
   font-size: 22px;;
 }
@@ -53,6 +50,14 @@ grid-column: 3/4;
     grid-column: 3/4;
 }
 
-  #container .Viatge{
+#container .Viatge{
 
-  }
+}
+
+#container .escales{
+  padding: 10px;
+  background-color:#000000;
+  border-radius: 10px;
+  grid-column:2/3;
+  grid-row: 3/4;
+}
