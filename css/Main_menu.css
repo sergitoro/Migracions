@@ -109,10 +109,10 @@ line-height: 1.5;
   padding: 10px;
   background-color:#000000;
   border-radius: 10px;
-  height: 150px;
-  width: 150px;
+  height: 445px;
+  width: 340px;
   grid-column:3/4;
-  grid-row: 1/2;
+  grid-row: 5/6;
 }
 #container .cabezeraexp{
   padding: 10px;
